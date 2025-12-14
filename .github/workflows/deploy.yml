@@ -1,4 +1,4 @@
-name: Deploy React to GitHub Pages
+name: Deploy React (CRA) to GitHub Pages
 
 on:
   push:
@@ -29,10 +29,11 @@ jobs:
       - name: Build project
         run: npm run build
 
+      # CRA outputs to `build/`
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: build
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
