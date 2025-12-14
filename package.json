@@ -29,5 +29,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage": "https://kirankumar284.github.io/React_Commodity_Dashboard"
 }
