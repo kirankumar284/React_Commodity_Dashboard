@@ -76,11 +76,3 @@ Deploy artifact to GitHub Pages (CDN)
         ↓
 Site available at https://username.github.io/repo-name
 ```
-
----
-
-This summary provides a clear guide to set up and troubleshoot custom CI/CD for modern JavaScript frameworks on GitHub Pages, helping avoid common pitfalls and ensuring smooth deployment.
-
----
-
-If you want, I can also help draft this as a nicely formatted README section or cheat sheet!
