@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f2027;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  height: 64px;
+  padding: 0 32px;
+  background: #0b0b0b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Right side buttons */
+.nav-links {
+  display: flex;
+  gap: 32px; /* ✅ GOOD spacing */
+}
+
+.nav-btn {
+  color: #f9c74f;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.nav-btn:hover {
+  color: #ffd166;
+}
+
+.nav-btn.active {
+  border-bottom: 2px solid #f9c74f;
+}
+
+/* Pages */
+.page-container {
+  padding: 40px;
+  text-align: center;
+}
+
+/* Hero */
+.hero {
+  max-width: 700px;
+  margin: auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+}
+
+.primary-btn {
+  padding: 12px 30px;
+  background: #f9c74f;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Dashboard Page */
+.dashboard-container {
+  padding: 10px 25px;
+  color: white;
+}
+
+.dashboard-container h1 {
+  margin-bottom: 30px;
+}
+
+.filters-left {
+  display: flex;
+  gap: 20px;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.filter-item label {
+  font-size: 13px;
+  color: #ccc;
+}
+
+/* Top controls */
+.dashboard-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 20px 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.left-control {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.left-control label {
+  font-size: 14px;
+  color: #ccc;
+}
+
+select {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+.right-control {
+  display: flex;
+  align-items: center;
+}
+
+/* Chart */
+.chart-container {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+.error {
+  color: #ff6b6b;
+  margin-top: 10px;
+}
