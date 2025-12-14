@@ -6,7 +6,7 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/React_Commodity_Dashboard">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
